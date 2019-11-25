@@ -1,0 +1,12 @@
+#anadir {
+    position: fixed !important;
+    bottom: 30px;
+}
+
+.test-background {
+    background-image: url("./images/test.jpg");
+}
+
+.test-background-hue {
+    filter: hue-rotate(-130deg);
+}

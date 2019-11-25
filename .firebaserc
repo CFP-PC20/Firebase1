@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "jjvl-material-001"
+  },
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "./index.html"
+      },
+      {
+        "source": "/success{,/**}",
+        "destination": "./success.html"
+      },
+    ]
+  }
+}
